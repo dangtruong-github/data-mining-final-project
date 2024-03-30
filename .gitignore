@@ -1,4 +1,10 @@
+*.pth
+
 # Byte-compiled / optimized / DLL files
+other/
+*.env
+check.py
+.ipynb_checkpoints/
 __pycache__/
 *.py[cod]
 *$py.class
