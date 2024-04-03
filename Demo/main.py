@@ -15,7 +15,7 @@ model_dict = {
 
 tags_dict = {
     1: "Romance",
-    2: "Action",
+    2: "Drama",
     3: "Fantasy",
     4: "LGBT",
     5: "Comedy",
@@ -89,8 +89,8 @@ mode_option_menu.pack()
 
 # Create model selection
 model_mode = tk.StringVar()
-model_mode.set("Rule-based")  # Default mode
-model_model_menu = tk.OptionMenu(root, model_mode, "Rule-based", "SVC_5_freq", "SVC_10_freq", "PhoBert_no_freq", "PhoBert_5_freq", "PhoBert_10_freq")
+model_mode.set("PhoBert_no_freq")  # Default mode
+model_model_menu = tk.OptionMenu(root, model_mode, "PhoBert_no_freq", "PhoBert_5_freq", "PhoBert_10_freq")
 model_model_menu.pack()
 
 # Create submit button
