@@ -7,8 +7,8 @@
 + demo.py: sẽ được tìm thấy ở trong thư mục Demo, đường dẫn "Demo/demo.py"
 + crawl.py: sẽ được tìm thấy ở trong thư mục Crawl, đường dẫn "Crawler/crawl.py"
 + train.py & predict.py: sẽ được tìm thấy trong thư mục Train+Eval
-    * SVM train + predict file: SVM_train_predict.ipynb
-    * PhoBert train + predict file: PhoBert_train_predict.ipynb
+    * SVM train + predict file: "Train+Eval/SVM/SVM_train_predict.ipynb"
+    * PhoBert train + predict file: "Train+Eval/PhoBert/PhoBert_train_predict.ipynb"
 
 - Link đến drive làm việc chung: https://drive.google.com/drive/folders/1U1pj3emL0Dyc3E_Uokkemag8eI48FkR2?usp=sharing
 
