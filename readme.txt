@@ -1,13 +1,18 @@
-mỗi nhóm cần upload các nội dung sau: 1, file readme.txt (danh sách thành viên; đường link đến github code, trong đó, code gồm các file: crawl.py; train.py, predict.py, demo.py); 2, file annotation-guideline.pdf (annotation guideline); 3, file data.zip (dữ liệu train,dev,test đã gán nhãn, dùng cho training, evaluate, nén lại), 4, slides.pdf (slides trình bày sáng nay).
-
 1. Danh sách thành viên
 - Chu Hữu Đăng Trường - 22022505
 - Nguyễn Đức Anh - 22022504
 - Nguyễn Kim Hoàng Anh - 22022566
 
 - Link đến github code: https://github.com/dangtruong-github/data-mining-final-project
++ demo.py: sẽ được tìm thấy ở trong thư mục Demo, đường dẫn "Demo/demo.py"
++ crawl.py: sẽ được tìm thấy ở trong thư mục Crawl, đường dẫn "Crawler/crawl.py"
++ train.py & predict.py: sẽ được tìm thấy trong thư mục Train+Eval
+    * SVM train + predict file: SVM_train_predict.ipynb
+    * PhoBert train + predict file: PhoBert_train_predict.ipynb
 
-2. Annotation Guideline: bao gồm <> trang, 
+- Link đến drive làm việc chung: https://drive.google.com/drive/folders/1U1pj3emL0Dyc3E_Uokkemag8eI48FkR2?usp=sharing
+
+2. Annotation Guideline: Tổng cộng là 5 trang
 
 3. Dataset - data.zip: Bao gồm 4 files:
 - Train + val: 3 files
